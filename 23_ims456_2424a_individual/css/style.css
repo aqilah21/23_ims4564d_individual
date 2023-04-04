@@ -1,0 +1,19 @@
+h1
+   {
+       color: black;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+body
+   {
+       background-color: lightblue;
+   }
+
+a
+   {
+    text-decoration:none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14pt;
+    color: black;
+    padding-right: 100px;
+   } 
