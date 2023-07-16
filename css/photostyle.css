@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+/* Coding With Nick */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    text-align: center;
+    padding: 32px;
+}
+.header h1{
+    font-family: 'Sacramento';
+    font-size: 50px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px 100px 100px;
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+}
+.img-hover-zoom{
+    border: 5px solid #ffff;
+}
+@media screen and (max-width: 800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
